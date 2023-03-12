@@ -19,7 +19,7 @@ public class Main {
     public static void checkLastName() {
         System.out.print("Enter first name: ");
         String lName = SC.next();
-        UserRegistration.isValidName(lName);
+        UserRegistration.isValidLastName(lName);
     }
 }
 
