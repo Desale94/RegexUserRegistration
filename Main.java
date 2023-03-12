@@ -17,12 +17,12 @@ public class Main {
         UserRegistration.isValidFirstName(fName);
     }
     public static void checkLastName() {
-        System.out.print("Enter first name: ");
+        System.out.print("Enter last name: ");
         String lName = SC.next();
-        UserRegistration.isValidName(lName);
+        UserRegistration.isValidLastName(lName);
     }
     public static void checkEmail() {
-        System.out.print("Enter first name: ");
+        System.out.print("Enter email id: ");
         String email = SC.next();
         UserRegistration.isValidEmail(email);
     }
