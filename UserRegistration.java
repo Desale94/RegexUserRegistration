@@ -6,7 +6,7 @@ import java.util.regex.Pattern;
 public class UserRegistration {
 
     public static void isValidFirstName(String firstName) {
-        String regex = "^[A-Z]{1}[a-z]{2,}$";
+        String regex = "^[A-Z][a-z]{3,}$";
         Pattern p = Pattern.compile(regex);
         Matcher m = p.matcher(firstName);
 
