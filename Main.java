@@ -7,6 +7,7 @@ public class Main {
     public static void main(String[] args) {
         System.out.println("--Welcome to User Registration Problem--");
         checkFirstName();
+        checkLastName();
 
     }
 
@@ -14,6 +15,11 @@ public class Main {
         System.out.print("Enter first name: ");
         String fName = SC.next();
         UserRegistration.isValidFirstName(fName);
+    }
+    public static void checkLastName() {
+        System.out.print("Enter first name: ");
+        String lName = SC.next();
+        UserRegistration.isValidName(lName);
     }
 }
 
