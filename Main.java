@@ -17,7 +17,7 @@ public class Main {
         UserRegistration.isValidFirstName(fName);
     }
     public static void checkLastName() {
-        System.out.print("Enter first name: ");
+        System.out.print("Enter last name: ");
         String lName = SC.next();
         UserRegistration.isValidLastName(lName);
     }
