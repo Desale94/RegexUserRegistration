@@ -14,7 +14,7 @@ public class UserRegistration {
         else System.out.println("invalid");
 
     }
-    public static void isValidName(String name) {
+    public static void isValidLastName(String name) {
         String regex = "^[A-Z][a-z]{3,}$";
         Pattern p = Pattern.compile(regex);
         Matcher m = p.matcher(name);
