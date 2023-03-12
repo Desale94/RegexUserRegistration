@@ -8,6 +8,7 @@ public class Main {
         System.out.println("--Welcome to User Registration Problem--");
         checkFirstName();
         checkLastName();
+        checkEmail();
 
     }
 
