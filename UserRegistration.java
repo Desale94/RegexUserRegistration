@@ -15,7 +15,7 @@ public class UserRegistration {
 
     }
 
-    public static void isValidName(String name) {
+    public static void isValidLastName(String name) {
         String regex = "^[A-Z][a-z]{3,}$";
         Pattern p = Pattern.compile(regex);
         Matcher m = p.matcher(name);
@@ -32,5 +32,12 @@ public class UserRegistration {
         if (m.matches()) System.out.println("valid");
         else System.out.println("invalid");
 
+    }
+    public static void isValidMobileNumber(String phNo) {
+        String  regex ="^([+][0-9]{0,2}\\s)[6-9][0-9]{9}$";
+        Pattern p = Pattern.compile(regex);
+        Matcher m = p.matcher(phNo);
+        if (m.matches()) System.out.println("valid");
+        else System.out.println("invalid");
     }
 }
