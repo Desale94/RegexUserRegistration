@@ -8,6 +8,8 @@ public class Main {
         System.out.println("--Welcome to User Registration Problem--");
         checkFirstName();
         checkLastName();
+        checkEmail();
+        checkMobileNumber();
 
     }
 
@@ -17,14 +19,19 @@ public class Main {
         UserRegistration.isValidFirstName(fName);
     }
     public static void checkLastName() {
-        System.out.print("Enter first name: ");
+        System.out.print("Enter last name: ");
         String lName = SC.next();
-        UserRegistration.isValidName(lName);
+        UserRegistration.isValidLastName(lName);
     }
     public static void checkEmail() {
-        System.out.print("Enter first name: ");
+        System.out.print("Enter email id: ");
         String email = SC.next();
         UserRegistration.isValidEmail(email);
+    }
+    public static void checkMobileNumber() {
+        System.out.print("Enter mobile number: ");
+        String phNo = SC.next();
+        UserRegistration.isValidMobileNumber(phNo);
     }
 }
 
