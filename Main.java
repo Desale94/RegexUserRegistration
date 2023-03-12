@@ -21,5 +21,10 @@ public class Main {
         String lName = SC.next();
         UserRegistration.isValidName(lName);
     }
+    public static void checkEmail() {
+        System.out.print("Enter first name: ");
+        String email = SC.next();
+        UserRegistration.isValidEmail(email);
+    }
 }
 
